@@ -3943,11 +3943,14 @@ input:checked + .toggleSwitchSlider:before {
     position: absolute;
     width: 277px;
     height: auto;
+
+    top: 76px;
+    left: 50px;
 }
 
 /* Rotating image for the spinner. */
 #loadSpinnerImage {
-    width: 280px;
+    width: 350px;
     height: auto;
     z-index: 400;
 }
