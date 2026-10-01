@@ -49,5 +49,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BelgianDev/Hexa-Launcher.git"
+  },
+  "allowScripts": {
+    "electron@39.8.10": true,
+    "electron-winstaller@5.4.0": true
   }
 }
