@@ -3947,8 +3947,11 @@ input:checked + .toggleSwitchSlider:before {
 /* Stationary image for the spinner. */
 #loadCenterImage {
     position: absolute;
-    width: 277px;
+    width: 200px;
     height: auto;
+
+    inset-inline-start: 45px;
+    inset-block-start: 70px;
 }
 
 /* Rotating image for the spinner. */
