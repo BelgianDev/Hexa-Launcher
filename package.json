@@ -1,13 +1,13 @@
 {
-  "name": "crafted-launcher",
+  "name": "hexa-launcher",
   "version": "2.2.6",
-  "productName": "Crafted Launcher",
-  "description": "Unofficial Minecraft launcher based on Helios Launcher ",
+  "productName": "Hexa Launcher",
+  "description": "Unofficial Minecraft launcher based on Helios Launcher, an attempt at improving stability",
   "author": "Daniel Scalzi (https://github.com/dscalzi/), RaftDev (https://github.com/BelgianDev)",
   "license": "MIT",
-  "homepage": "https://github.com/BelgianDev/crafted-launcher-legacy",
+  "homepage": "https://github.com/BelgianDev/hexa-launcher",
   "bugs": {
-    "url": "https://github.com/BelgianDev/crafted-launcher-legacy/issues"
+    "url": "https://github.com/BelgianDev/hexa-launahcer/issues"
   },
   "private": true,
   "main": "index.js",
@@ -48,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BelgianDev/Crafted-Launcher-Legacy.git"
+    "url": "git+https://github.com/BelgianDev/Hexa-Launcher.git"
   }
 }

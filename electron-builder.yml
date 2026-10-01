@@ -1,5 +1,5 @@
-appId: 'craftedlauncherlegacy'
-productName: 'Crafted Launcher Legacy'
+appId: 'hexa-launcher'
+productName: 'Hexa Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2026 RaftDev'
@@ -41,8 +41,8 @@ linux:
   target: 'AppImage'
   maintainer: 'RaftDev'
   vendor: 'RaftDev'
-  synopsis: 'Crafted Launcher Legacy'
-  description: 'Launcher for Raft modpacks'
+  synopsis: 'Hexa-Launcher'
+  description: 'Unofficial Minecraft launcher based on Helios Launcher, an attempt at improving stability'
   category: 'Game'
 
 

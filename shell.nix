@@ -10,11 +10,11 @@ let
     libpulseaudio
     pipewire
     libGL
-    xorg.libX11
-    xorg.libXcursor
-    xorg.libXext
-    xorg.libXrandr
-    xorg.libXxf86vm
+    libX11
+    libXcursor
+    libXext
+    libXrandr
+    libXxf86vm
     udev
     vulkan-loader
   ];
@@ -25,7 +25,7 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     nodejs_22
     electron
-    openjdk17
+    openjdk21
   ] ++ runtimeLibs;
 
   shellHook = ''
@@ -36,5 +36,7 @@ pkgs.mkShell {
     export PATH="${pkgs.electron}/bin:$PATH"
     export ELECTRON_SKIP_BINARY_DOWNLOAD=1
     export ELECTRON_PATH="${pkgs.electron}/libexec/electron/electron"
-  '';
+  
+    alias run="electron ."
+'';
 }
